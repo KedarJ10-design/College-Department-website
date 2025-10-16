@@ -1,0 +1,55 @@
+<!--
+  README: College Department Website
+
+  ## About This Project
+  This is a modern, responsive, multi-page website for a university's Computer Science department. It's designed to be clean, professional, and user-friendly, providing essential information to prospective students, current students, and faculty. The site is built as a Single Page Application (SPA).
+
+  ## Pages Included
+  - Home: A welcoming landing page with an overview of the department.
+  - Faculty: A directory of faculty members.
+  - Courses: A list of courses offered by the department.
+  - Achievements: A showcase of recent student and faculty accomplishments.
+  - Contact: Contact information and a functional contact form.
+
+  ## Technologies Used
+  - HTML5: For the core structure and content.
+  - CSS3: For custom styling, animations, and responsive design (Flexbox/Grid).
+  - React (v19): A JavaScript library for building the user interface with a component-based architecture.
+  - React Router (v7): For handling client-side routing in the SPA.
+  - TypeScript: For adding static types to JavaScript, improving code quality and maintainability.
+  - No external CSS frameworks (e.g., Bootstrap, Tailwind) are used.
+
+  ## How to Open Locally
+  This is a React application and requires a development server to run correctly. You cannot open the `index.html` file directly in the browser.
+
+  1. **Prerequisites:** You need to have Node.js and npm (or yarn) installed.
+  2. **Run the project:** In a real-world scenario, you would run `npm install` and then `npm start` in the project directory. For this specific environment, the development server is handled automatically.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Department Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "College Department Website",
+  "description": "A modern, multi-page website for a college department, built with React and Tailwind CSS. It features sections for home, faculty, courses, achievements, and contact information.",
+  "requestFramePermissions": []
+}
