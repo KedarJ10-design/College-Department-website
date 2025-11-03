@@ -7,8 +7,10 @@ import FacultyPage from './pages/FacultyPage';
 import CoursesPage from './pages/CoursesPage';
 import AchievementsPage from './pages/AchievementsPage';
 import ContactPage from './pages/ContactPage';
+import NewsPage from './pages/NewsPage';
 import BackToTopButton from './components/BackToTopButton';
 import Preloader from './components/Preloader';
+import AICourseAdvisor from './components/AICourseAdvisor';
 import './styles.css';
 
 const App: React.FC = () => {
@@ -37,11 +39,13 @@ const App: React.FC = () => {
                 <Route path="/faculty" element={<FacultyPage />} />
                 <Route path="/courses" element={<CoursesPage />} />
                 <Route path="/achievements" element={<AchievementsPage />} />
+                <Route path="/news" element={<NewsPage />} />
                 <Route path="/contact" element={<ContactPage />} />
               </Routes>
             </main>
             <Footer />
             <BackToTopButton />
+            <AICourseAdvisor />
           </>
         )}
       </div>

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 // FIX: Made the hook generic to accept any element type that extends Element.
 const useIntersectionObserver = <T extends Element>(

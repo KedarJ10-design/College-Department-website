@@ -42,6 +42,7 @@ const Header: React.FC = () => {
               <li><NavLink to="/faculty" className={({ isActive }) => isActive ? "active" : ""} onClick={closeMenu}>Faculty</NavLink></li>
               <li><NavLink to="/courses" className={({ isActive }) => isActive ? "active" : ""} onClick={closeMenu}>Courses</NavLink></li>
               <li><NavLink to="/achievements" className={({ isActive }) => isActive ? "active" : ""} onClick={closeMenu}>Achievements</NavLink></li>
+              <li><NavLink to="/news" className={({ isActive }) => isActive ? "active" : ""} onClick={closeMenu}>News & Events</NavLink></li>
               <li><NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""} onClick={closeMenu}>Contact</NavLink></li>
             </ul>
           </nav>
